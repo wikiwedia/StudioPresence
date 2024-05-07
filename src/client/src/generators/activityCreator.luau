@@ -40,7 +40,7 @@ function activityCreator:Get()
 		active="serverscript"
 	end
 	if game:GetService("RunService"):IsRunning() then
-		editing="StudioPresence by iArxic"
+		editing="StudioPresence"
 		active="studio"
 		description="Currently play-testing"
 		smallImageKey="playtesticon"
